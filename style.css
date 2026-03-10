@@ -6,5 +6,11 @@ h2{
     margin: 100px;
     padding: 10px;
     opacity: 30%;
-    
+    /* text-transform: uppercase; */
+}
+
+p{
+    text-transform: capitalize;
+    /* text-decoration: underline; */
+    text-decoration: overline;
 }
