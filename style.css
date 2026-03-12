@@ -3,14 +3,44 @@ h2{
     font-size: large;
     font-family: sans-serif;
     font-weight: 500;
-    margin: 100px;
+    margin: 10px;
     padding: 10px;
     opacity: 30%;
     /* text-transform: uppercase; */
+    /* text-align: right; */
+    text-align: center;
+    text-align: left;
 }
 
 p{
     text-transform: capitalize;
-    /* text-decoration: underline; */
-    text-decoration: overline;
+    text-decoration: underline;
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: solid; */
+    /* text-align: left; */
+}
+
+.new1{
+    /* background-color: aquamarine; */
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: auto; */
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+
+.play_with_letter{
+    text-decoration: none;
+    color: black;
+}
+
+.change_w{
+    /* color: darkmagenta; */
+    color: red;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: sans-serif;
 }
