@@ -32,7 +32,7 @@ p{
     background-position: center;
 }
 
-.play_with_letter{
+.play_with_letter1{
     text-decoration: none;
     color: black;
 }
@@ -43,4 +43,58 @@ p{
     text-transform: uppercase;
     font-size: 30px;
     font-family: sans-serif;
+}
+
+.apply_style_to_Tag{
+    text-decoration: underline;
+    color: green;
+    font-family: cursive;
+    font-style: italic;
+    background-color: peachpuff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.play_with_letter{
+    text-transform: uppercase;
+    text-decoration: none;
+    /* letter-spacing: 10px; */
+    /* word-spacing: 50px; */
+    /* text-align: center; */
+    text-align: right;
+}
+
+.border_property{
+    /* border-style: solid;
+    border-width: 2px;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: orange; */
+
+    border: 5px solid red;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.banner_image{
+    width: 500px;
+    height: 500px;
+    /* float: right; */
+    /* float: left; */
+}
+
+.display_prop{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+.apply_position1{
+    /* position: fixed; */
+    /* position: absolute; */
+    position: relative;
+    top: 50px;
+    left: 300px;
+    bottom: 200px;
+    left: 800px;
 }
